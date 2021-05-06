@@ -1,1 +1,6 @@
-main focus is compression and decompression.  The program should be able to input from the user and compress the list of positions (giving the same words the same positions) like in task 2. The main difference is that I will need to decompress the positions which means recreating the sentence from the positions. In addition to this I will include punctuation and capitalization using the compressed file. For this to be more practical I decided to make two separate programs to create this.
+
+This program is designed to analyse a sentence inputted by the User. The program will calculate the position of each character in the sentence. Program should not be case sensitive. The program should then label words with a number and duplicate words should have the same label. 
+The program should be able to recreate the sentence using the positions.
+Task 4 is then a sort of compression where it reuses these positions to recreate the sentence while using less data.
+
+CREATED AT: 07/2017
